@@ -33,7 +33,7 @@ algorithm to find the best approximation for a global frustration function and s
 
 #### To perturb the steady-state distributions generated above by changing the number of red and blue agents and letting them adjust to a new final steady-state, follow the steps below
 
-4. Open the script title "Schelling2.m" and click "Run" from the top menu. Again, to save time, you can skip this step for a smaller `SampleSize=5000;` by running `load("results_schelling2_SampleSize_2500.mat")`. One can also download datafile with `SampleSize=50000;` here: https://drive.google.com/file/d/1xm3TDmserPSt5wXZbWAI9NyHAnJ-xLTO/view?usp=sharing
+4. Open the script title "Schelling2.m" and click "Run" from the top menu. Again, to save time, you can skip this step for a smaller `SampleSize=2500;` by running `load("results_schelling2_SampleSize_2500.mat")`. One can also download datafile with `SampleSize=50000;` here: https://drive.google.com/file/d/1xm3TDmserPSt5wXZbWAI9NyHAnJ-xLTO/view?usp=sharing
 
     "Schelling2.m" takes the initial conditions from "Schelling1.m" and simulates how the population
     of each modified city will evolve into the future, thus collecting the statistics for the out-of-equilibrium
