@@ -21,7 +21,7 @@ labeled matlab-implementation. Stay tuned (or contact us) for a faster implement
 
 1. Download the folder "matlab-implementation" and add the folder to your MATLAB path.
 2. Open the script titled "Schelling1.m". To collect the number of statistics used in [arXiv:2008.09663](https://arxiv.org/abs/2008.09663),
-set `SampleSize=50000;` at the top of the script and click "Run" from the top menu, This will take hours to run on a standard laptop PC. To skip this step, load the results by running `load("results_schelling1_SampleSize_2500.mat")`. To minimize the size of the data file, this is run with `SampleSize=2500;`
+set `SampleSize=50000;` at the top of the script and click "Run" from the top menu, This will take hours to run on a standard laptop PC. To skip this step, load the results by running `load("results_schelling1_SampleSize_2500.mat")`. To minimize the size of the data file, this is run with `SampleSize=2500;` One can also download datafile with `SampleSize=50000;` here: https://drive.google.com/file/d/1xg9_GA5avQIbr61nshIdldsq8YBZs5W7/view?usp=sharing 
 
     "Schelling1.m" generates the statistics of a steady-state ensemble and the initial conditions for an ensemble where the total population of red and blue agents have changed. A snapshot of the simulation look like the following. ![Schelling smapshot](/matlab-implementation/images/Schelling1_1.png)
 
@@ -33,7 +33,7 @@ algorithm to find the best approximation for a global frustration function and s
 
 #### To perturb the steady-state distributions generated above by changing the number of red and blue agents and letting them adjust to a new final steady-state, follow the steps below
 
-4. Open the script title "Schelling2.m" and click "Run" from the top menu. Again, to save time, you can skip this step for a smaller `SampleSize=5000;` by running `load("results_schelling2_SampleSize_2500.mat")`
+4. Open the script title "Schelling2.m" and click "Run" from the top menu. Again, to save time, you can skip this step for a smaller `SampleSize=5000;` by running `load("results_schelling2_SampleSize_2500.mat")`. One can also download datafile with `SampleSize=50000;` here: https://drive.google.com/file/d/1xm3TDmserPSt5wXZbWAI9NyHAnJ-xLTO/view?usp=sharing
 
     "Schelling2.m" takes the initial conditions from "Schelling1.m" and simulates how the population
     of each modified city will evolve into the future, thus collecting the statistics for the out-of-equilibrium
